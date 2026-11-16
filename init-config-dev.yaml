@@ -3,6 +3,7 @@ rewriteBase: /hubleto-dev/
 projectUrl: http://localhost/{{ rewriteBase }}
 srcUrl: http://localhost/{{ rewriteBase }}/vendor/hubleto/erp
 assetsUrl: http://localhost/{{ rewriteBase }}/vendor/hubleto/assets
+assetsCompiledUrl: http://localhost/{{ rewriteBase }}/vendor/hubleto/assets/compiled
 
 ### Database connection
 dbHost: localhost
