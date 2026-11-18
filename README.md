@@ -48,11 +48,11 @@ To stay on a particular release, replace `latest` in the image name with its rel
 ### Using `composer`
 
 ```
-composer create-project hubleto/install . --stability=YOUR_PREFERRED_STABILITY
+composer create-project hubleto/install . --stability=dev
 php hubleto init
 ```
 
-where `YOUR_PREFERRED_STABILITY` can be:
+You may use following stabilities:
   * `dev` for latest development version
   * `alpha` for alpha testing version
   * `stable` for stable version
